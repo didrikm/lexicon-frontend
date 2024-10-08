@@ -1,0 +1,42 @@
+header {
+    max-width: 560px;
+    margin: 0 auto;
+}
+header img{
+    max-width: 560px;
+}
+
+body {
+    color: #ffffff;
+    font-family: savoyregular, Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #000000, #7b1839);
+    height: 100%;
+}
+
+#description{
+    max-width: 560px;
+    margin: 50px auto;
+    font-size: 14px;
+}
+
+#trailer{
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+#links{
+    max-width: 300px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 42%;
+    text-align: centeru;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    background-color: black;
+}
