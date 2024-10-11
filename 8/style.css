@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #d5bdaf;
+}
+
+.navbar {
+  background-color: #f5ebe0;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.card {
+  margin-top: 2rem;
+  background-color: #f5ebe0;
+  width: 18rem;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #aaa199;
+  color: #f5ebe0;
+}
+
+.btn:hover {
+  background-color: #d5bdaf;
+}
+
+.img-container {
+  height: 300px;
+  overflow: hidden;
+  background-color: white;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+
+/* .card-img-top {
+    height: 100%; 
+    width: auto; 
+    object-fit: contain;
+} */
+
+.about-us-role {
+  display: inline-block;
+  width: 48%;
+}
+
+.headshot {
+  width: 80%;
+}
+
+.content {
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-color: #f5ebe0;
+  text-align: center;
+  padding: 10px 0;
+}
